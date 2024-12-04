@@ -1,0 +1,101 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #6a0dad, #e91e63);
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(180deg, #6a0dad, #e91e63);
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+header h1 {
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+/* Introducción */
+section h2 span {
+    color: #e91e63;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #2a2a3b;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+.card img {
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover img {
+    transform: scale(1.1); /* Hace que la imagen se agrande ligeramente */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra */
+}
+.card-title {
+    color: #e91e63;
+}
+
+/* Contacto */
+#contacto {
+    background: linear-gradient(180deg, #6a0dad, #1a1a2e);
+    color: #ffffff;
+}
+#contacto input, #contacto textarea {
+    background: #eab9ee;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+#contacto button {
+    background: #e91e63;
+    border: none;
+    transition: background 0.3s;
+}
+#contacto button:hover {
+    background: #6a0dad;
+}
+
+/* Contacto bajo logo */
+.text-center p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #2a2a3b;
+    color: #ffffff;
+}
+
+/* Tarjetas "Acerca de Nosotros" */
+.card-body h5 {
+    color: #e91e63;
+}
+.card-body p {
+    color: #c7c7d1;
+}
+
+/* Enlaces activos */
+a {
+    color: #e91e63;
+}
+a:hover {
+    color: #6a0dad;
+}
